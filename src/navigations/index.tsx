@@ -6,10 +6,11 @@ import {Alert} from 'react-native';
 const AppNavigation: React.FC = () => {
   const {isInitialized} = useStartUp();
   if (!isInitialized) {
-    Alert.alert(
-      'Initializing',
-      'Please wait while the app is being initialized...',
-    );
+    // Alert.alert(
+    //   'Initializing',
+    //   'Please wait while the app is being initialized...',
+    // );
+    null;
   }
   return <RootNavigator />;
 };

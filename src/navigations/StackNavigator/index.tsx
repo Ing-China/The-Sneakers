@@ -12,19 +12,26 @@ import {
 import {BottomTabNavigator} from '../BottomTabNavigator';
 import {StackParamList} from '../../types/StackTypes';
 import {useTheme} from '../../hooks';
+import {useTranslation} from 'react-i18next';
+import {Fonts, FontSizes} from '../../constants';
 
 const Stack = createStackNavigator<StackParamList>();
 
 export const StackNavigator = () => {
   const {colors} = useTheme();
+  const {t} = useTranslation();
   return (
     <Stack.Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: colors.background,
+          backgroundColor: colors.primary,
         },
         headerTintColor: colors.text,
         headerBackTitleVisible: false,
+        headerTitleStyle: {
+          fontFamily: Fonts.MEDIUM,
+          fontSize: FontSizes.extraLarge,
+        },
       }}>
       <Stack.Screen
         name="HomeTabs"
@@ -59,7 +66,7 @@ export const StackNavigator = () => {
       <Stack.Screen
         name="Language"
         component={LanguageScreen}
-        options={{title: 'Language'}}
+        options={{title: t('language')}}
       />
       <Stack.Screen
         name="Favorite"

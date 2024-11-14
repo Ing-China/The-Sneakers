@@ -1,13 +1,12 @@
 import {FlatList, SafeAreaView, View} from 'react-native';
 import ProfileHeader from '../../components/ProfileHeader';
-import {useProfile, useTheme, useThemeContext} from '../../hooks';
+import {useProfile, useTheme} from '../../hooks';
 import ProfileMenuItem from '../../components/ProfileMenuItem';
 import {ProfileMenu} from '../../models';
 import {useMemo, useState} from 'react';
 import styles from './style';
 
 const ProfileScreen: React.FC = () => {
-  // const {colors} = useThemeContext();
   const {colors} = useTheme();
   const {menuItems} = useProfile();
   const [isDelay, setIsDelay] = useState(true);
@@ -26,8 +25,7 @@ const ProfileScreen: React.FC = () => {
   const itemSeparator = () => <View style={{height: 10}} />;
 
   return (
-    <SafeAreaView
-      style={[styles.container, {backgroundColor: colors.background}]}>
+    <SafeAreaView style={[styles.container, {backgroundColor: colors.primary}]}>
       {!isDelay && (
         <FlatList
           ListHeaderComponent={renderHeader}

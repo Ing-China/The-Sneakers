@@ -1,7 +1,7 @@
+import {Themes} from './colors/colorTypes';
 import Icons from './icons';
 import LightTheme from './colors/lightTheme';
 import DarkTheme from './colors/darkTheme';
-import {Themes} from './colors/colorTypes';
 import FontSizes from './fontSizes';
 import Padding from './padding';
 import Radius from './borderRadius';
@@ -10,6 +10,8 @@ import Screen_Dimensions from './dimensions';
 import Gap from './gap';
 import ActionTypes from './store';
 import Spacing from './spacing';
+import Fonts from './fonts';
+import KeyboardTypes from './keyboardTypes';
 export {
   Icons,
   LightTheme,
@@ -22,5 +24,7 @@ export {
   Gap,
   ActionTypes,
   Spacing,
+  Fonts,
+  KeyboardTypes,
 };
 export type {Themes};

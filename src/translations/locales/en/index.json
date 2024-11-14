@@ -2,5 +2,20 @@
   "welcome": "Hello, World!",
   "toggleTheme": "Toggle Theme",
   "cambodia": "Khmer",
-  "english": "English"
+  "english": "English",
+  "language": "Language",
+  "cart": "Cart",
+  "orderHistory": "Order History",
+  "notifications": "Notifications",
+  "favorite": "Favorite",
+  "appearance": "Appearance",
+  "aboutUs": "About Us",
+  "signOut": "Sign Out",
+  "deleteMyAccount": "Delete My Account",
+  "profile": "Profile",
+  "home": "Home",
+  "search": "Search",
+  "searchProduct": "Search Product",
+  "newArrival": "New Arrival",
+  "seeMore": "See More"
 }

@@ -1,14 +1,16 @@
 import {ProfileMenu} from '../../models';
 import {Icons} from '../../constants';
+import {useTranslation} from 'react-i18next';
 
 const useProfile = () => {
+  const {t} = useTranslation();
   const menuItems = [
-    new ProfileMenu(9, 'Cart', Icons.CART, 'Cart', Icons.ARROWRIGHT, false),
+    new ProfileMenu(9, 'Cart', Icons.CART, t('cart'), Icons.ARROWRIGHT, false),
     new ProfileMenu(
       1,
       'OrderHistory',
       Icons.HISTORY,
-      'Order History',
+      t('orderHistory'),
       Icons.ARROWRIGHT,
       false,
     ),
@@ -16,7 +18,7 @@ const useProfile = () => {
       2,
       'Notification',
       Icons.NOTIFICATION,
-      'Notifications',
+      t('notifications'),
       Icons.ARROWRIGHT,
       false,
     ),
@@ -24,7 +26,7 @@ const useProfile = () => {
       3,
       'Favorite',
       Icons.HEART,
-      'Favorite',
+      t('favorite'),
       Icons.ARROWRIGHT,
       false,
     ),
@@ -32,7 +34,7 @@ const useProfile = () => {
       4,
       'Appearance',
       Icons.APPEARANCE,
-      'Appearance',
+      t('appearance'),
       undefined,
       false,
       true,
@@ -41,7 +43,7 @@ const useProfile = () => {
       5,
       'Language',
       Icons.TRANSLATE,
-      'Language',
+      t('language'),
       Icons.ARROWRIGHT,
       false,
     ),
@@ -49,16 +51,23 @@ const useProfile = () => {
       6,
       'AboutUs',
       Icons.ME,
-      'About Us',
+      t('aboutUs'),
       Icons.ARROWRIGHT,
       false,
     ),
-    new ProfileMenu(7, 'SignOutModal', undefined, 'Sign Out', undefined, true),
+    new ProfileMenu(
+      7,
+      'SignOutModal',
+      undefined,
+      t('signOut'),
+      undefined,
+      true,
+    ),
     new ProfileMenu(
       8,
       'DeleteAccountModal',
       undefined,
-      'Delete My Account',
+      t('deleteMyAccount'),
       undefined,
       true,
     ),

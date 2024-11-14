@@ -37,7 +37,9 @@ const FlexibleTouchable: React.FC<FlexibleTouchableProps> = ({
               width: prefixIconWidth,
               height: prefixIconHeight,
             })}
-          <Text style={[styles.label, labelStyle, {color: colors.text}]}>
+          <Text
+            style={[styles.label, labelStyle, {color: colors.text}]}
+            numberOfLines={1}>
             {label}
           </Text>
         </View>

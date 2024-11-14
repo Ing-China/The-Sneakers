@@ -6,10 +6,7 @@ export type Themes = {
   primary: string;
   secondary: string;
   secondaryReversed: string;
-  background: string;
   text: string;
-  buttonBackground: string;
-  buttonText: string;
   icon: string;
 };
 

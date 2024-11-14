@@ -19,6 +19,7 @@ import Uk from '../../assets/icons/uk.svg';
 import Cambodia from '../../assets/icons/cambodia.svg';
 import Radio from '../../assets/icons/radio.svg';
 import RadioFill from '../../assets/icons/radio_fill.svg';
+import Map from '../../assets/icons/map.svg';
 
 const Icons = {
   HOME: Home,
@@ -42,6 +43,7 @@ const Icons = {
   CAMBODIA: Cambodia,
   RADIO: Radio,
   RadioFill: RadioFill,
+  MAP: Map,
 };
 
 export default Icons;

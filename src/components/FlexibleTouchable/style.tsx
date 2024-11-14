@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {FontSizes, Gap, Padding, Radius} from '../../constants';
+import {Fonts, FontSizes, Gap, Padding, Radius} from '../../constants';
 
 export default StyleSheet.create({
   wrapper: {},
@@ -17,5 +17,6 @@ export default StyleSheet.create({
   },
   label: {
     fontSize: FontSizes.large,
+    fontFamily: Fonts.REGULAR,
   },
 });

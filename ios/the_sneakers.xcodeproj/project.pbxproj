@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* the_sneakersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* the_sneakersTests.m */; };
+		063CA0FD5976479F8946F857 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E50BBD5C412545C886C52CCD /* Poppins-Medium.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-the_sneakers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-the_sneakers.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1657F485D486AD7985D84414 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		5308F707955C4B51801C4C77 /* KantumruyPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75466EA24B88400AB14BA958 /* KantumruyPro-Light.ttf */; };
+		6565625E11B24F71804C5D45 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B23E17D64FC438EA2ACDF9C /* Poppins-SemiBold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-the_sneakers-the_sneakersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-the_sneakers-the_sneakersTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9ACFB35A118F4C0F9A47E712 /* KantumruyPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F67DE279CA1743938B7BF445 /* KantumruyPro-Medium.ttf */; };
+		9E5C875C4C764432958C9EDF /* KantumruyPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D7E7A78AEB744C5ADCAEF34 /* KantumruyPro-Regular.ttf */; };
+		A1FB251054C94B76975464B7 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A6AA2EFDE39490688573FA9 /* Poppins-Light.ttf */; };
+		B21F9DEAEC004453A086BE65 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FF9EC6D11714E60B5C0E57A /* Poppins-Regular.ttf */; };
+		C8211B5EDAD74566998A6202 /* KantumruyPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6A00D6DE2BD46E389800E27 /* KantumruyPro-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +47,21 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = the_sneakers/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = the_sneakers/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-the_sneakers-the_sneakersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-the_sneakers-the_sneakersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF9EC6D11714E60B5C0E57A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-the_sneakers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the_sneakers.debug.xcconfig"; path = "Target Support Files/Pods-the_sneakers/Pods-the_sneakers.debug.xcconfig"; sourceTree = "<group>"; };
+		3D7E7A78AEB744C5ADCAEF34 /* KantumruyPro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-Regular.ttf"; path = "../src/assets/fonts/KantumruyPro-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-the_sneakers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the_sneakers.release.xcconfig"; path = "Target Support Files/Pods-the_sneakers/Pods-the_sneakers.release.xcconfig"; sourceTree = "<group>"; };
+		5A6AA2EFDE39490688573FA9 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		5B23E17D64FC438EA2ACDF9C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-the_sneakers-the_sneakersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the_sneakers-the_sneakersTests.debug.xcconfig"; path = "Target Support Files/Pods-the_sneakers-the_sneakersTests/Pods-the_sneakers-the_sneakersTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-the_sneakers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-the_sneakers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75466EA24B88400AB14BA958 /* KantumruyPro-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-Light.ttf"; path = "../src/assets/fonts/KantumruyPro-Light.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = the_sneakers/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-the_sneakers-the_sneakersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the_sneakers-the_sneakersTests.release.xcconfig"; path = "Target Support Files/Pods-the_sneakers-the_sneakersTests/Pods-the_sneakers-the_sneakersTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6A00D6DE2BD46E389800E27 /* KantumruyPro-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-Bold.ttf"; path = "../src/assets/fonts/KantumruyPro-Bold.ttf"; sourceTree = "<group>"; };
+		E50BBD5C412545C886C52CCD /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F67DE279CA1743938B7BF445 /* KantumruyPro-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "KantumruyPro-Medium.ttf"; path = "../src/assets/fonts/KantumruyPro-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +141,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				B83107382E2C4B90A0BFCEEA /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -138,6 +155,22 @@
 				00E356EE1AD99517003FC87E /* the_sneakersTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B83107382E2C4B90A0BFCEEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A6AA2EFDE39490688573FA9 /* Poppins-Light.ttf */,
+				E50BBD5C412545C886C52CCD /* Poppins-Medium.ttf */,
+				1FF9EC6D11714E60B5C0E57A /* Poppins-Regular.ttf */,
+				5B23E17D64FC438EA2ACDF9C /* Poppins-SemiBold.ttf */,
+				D6A00D6DE2BD46E389800E27 /* KantumruyPro-Bold.ttf */,
+				75466EA24B88400AB14BA958 /* KantumruyPro-Light.ttf */,
+				F67DE279CA1743938B7BF445 /* KantumruyPro-Medium.ttf */,
+				3D7E7A78AEB744C5ADCAEF34 /* KantumruyPro-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -247,6 +280,14 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				1657F485D486AD7985D84414 /* PrivacyInfo.xcprivacy in Resources */,
+				A1FB251054C94B76975464B7 /* Poppins-Light.ttf in Resources */,
+				063CA0FD5976479F8946F857 /* Poppins-Medium.ttf in Resources */,
+				B21F9DEAEC004453A086BE65 /* Poppins-Regular.ttf in Resources */,
+				6565625E11B24F71804C5D45 /* Poppins-SemiBold.ttf in Resources */,
+				C8211B5EDAD74566998A6202 /* KantumruyPro-Bold.ttf in Resources */,
+				5308F707955C4B51801C4C77 /* KantumruyPro-Light.ttf in Resources */,
+				9ACFB35A118F4C0F9A47E712 /* KantumruyPro-Medium.ttf in Resources */,
+				9E5C875C4C764432958C9EDF /* KantumruyPro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,7 +629,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -657,7 +701,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

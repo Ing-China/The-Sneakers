@@ -1,14 +1,14 @@
 import {Text, View} from 'react-native';
 import {HeaderTitleProps} from './headerTitleProps';
 import styles from './style';
-import {useThemeContext} from '../../hooks';
+import {useTheme} from '../../hooks';
 
 const HeaderTitleComponent: React.FC<HeaderTitleProps> = ({
   title,
   titleStyle,
   containerStyle,
 }) => {
-  const {colors} = useThemeContext();
+  const {colors} = useTheme();
 
   return (
     <View style={[styles.container, containerStyle]}>

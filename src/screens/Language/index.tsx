@@ -30,7 +30,7 @@ const LanguageScreen: React.FC = () => {
   }, []);
 
   return (
-    <View style={[styles.container, {backgroundColor: colors.background}]}>
+    <View style={[styles.container, {backgroundColor: colors.primary}]}>
       <FlatList
         data={languages}
         renderItem={languageItem}
